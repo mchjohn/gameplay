@@ -15,7 +15,7 @@ Este projeto está sendo desenvolvido no evento Next Level Week # 06 da [Rockets
 Este projeto foi desenvolvido utilizando as tecnologias. 
 
 - [ReactJS](https://reactjs.org/)
-- [React-Native]([https://reactnative.dev](https://reactnative.dev/))
+- [React-Native](https://reactnative.dev)
 - [Typescript](https://www.typescriptlang.org/)
 - [Firebase Authentication](https://firebase.google.com/products/auth)
 - [Firebase Realtime Database](https://firebase.google.com/products/realtime-database)
