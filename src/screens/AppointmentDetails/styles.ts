@@ -15,8 +15,7 @@ export const styles = StyleSheet.create({
   },
   banner: {
     width: '100%',
-    height: 200,
-    marginBottom: 30
+    height: 200
   },
   title: {
     fontSize: 28,

@@ -30,6 +30,24 @@ export function Guilds({handleGuildSelect} : Props) {
       name: "Vamo Trolar",
       icon: 'image.png',
       owner: true
+    },
+    {
+      id: "4",
+      name: "Lendários",
+      icon: 'image.png',
+      owner: true
+    },
+    {
+      id: "5",
+      name: "Galera do X1",
+      icon: 'image.png',
+      owner: true
+    },
+    {
+      id: "6",
+      name: "Vamo Trolar",
+      icon: 'image.png',
+      owner: true
     }
   ]
   
@@ -42,7 +60,9 @@ export function Guilds({handleGuildSelect} : Props) {
           <Guild data={item} onPress={() => handleGuildSelect(item)} />
         )}
         showsVerticalScrollIndicator={false}
-        ItemSeparatorComponent={() => <ListDivider />}
+        ItemSeparatorComponent={() => <ListDivider isCentered />}
+        contentContainerStyle={{paddingBottom: 40, paddingTop: 50}}
+        ListHeaderComponent={() => <ListDivider isCentered />}
         style={styles.guilds}
       />
     </View>
